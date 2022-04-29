@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+   margin:0;
+   padding: 0;
+}
+nav{
+    font-family: 'ubuntu', sans-serif;
+}
+nav ul{
+    align-items:center;
+    display: flex;
+    
+    list-style-type: none;
+    height: 65px;
+    background-color:black;
+    color: whitesmoke;
+}
+nav ul li{
+    padding:0 12px;
+}
+.brand img{
+    width: 30px;
+    padding:0 8px;
+    
+}
+.brand{
+    display: flex;
+    align-items:center ;
+    align-items:center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding:0,800px;
+    
+}
+
+.container{
+    
+    min-height: 72vh;
+    background-color: white;
+    color:white;
+    display:flex;
+    width:70%;
+    overflow-y:auto;
+    margin:23px auto;
+    border-radius: 13px;
+    padding: 10px;
+    /*image alignement will change resizing browser window needs to be corrected*/
+    background-image: url('background2.png');
+
+}
+
+.songItemContainer{
+    margin-top: 30px;
+}
+.container h1{
+   font-size:x-large;
+   font-family: 'ubuntu', sans-serif;
+   padding-top: 0.50cm;
+   padding-left: 20px;
+}
+
+
+
+.bottom{
+    position:sticky;
+    height:80px;
+    background-color:black;
+    color: white;
+    bottom: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.icons{
+    margin-top: 24px;
+}
+
+#myProgressBar{
+    width: 75%;
+  height: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 10px;
+
+}
+.songInfo{
+    position:absolute;
+    left:12.5vw;
+    font-family:'Varela Round', sans-serif;
+    font-size: 15px;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.songItem{
+    
+    height:40px;
+    display:flex;
+    background-color: rgb(102, 106, 139);
+    color: rgb(255, 251, 251);
+    font-weight: bolder;
+    font-size: 1rem;
+    font-family: 'ubuntu', sans-serif;
+    width: 80%;
+    border-radius:30px;
+    margin-top:5px;
+    margin-left:20px;
+    padding-top:3.5px;
+    padding-bottom:3.5px;
+    padding-left: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.songItem img{
+    height:35px;
+    border-radius: 35px;
+    margin-left: 8px;
+}
+
+.fa-regular, .far {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 400;
+    margin-left: 5px;
+    justify-content: center;
+}
+
+.timeStamp{
+    margin: 0 10px;
+    margin-right: 15px;
+}
+
+.songListPlay img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}

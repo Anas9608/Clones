@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class = "brand"><img src = "logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class = "container">
+     
+       <div class="songlist">
+        <h1>Buckethead-Healing Inside Outside Everyside</h1>
+        <div class="songItemContainer">
+            <div>
+                <div class="songItem">
+                    <img src="cover1.webp" alt="1">
+                    <span class="songName">How much does a thought weigh</span>
+                    
+                    <span class="songListPlay"><span class="timeStamp">03:16<i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+            <div>
+                <div class="songItem">
+                    <img src="cover1.webp" alt="1">
+                    <span class="songName">Healing inside outside everyside</span>
+                    
+                    <span class="songListPlay"><span class="timeStamp">03:58<i id="1"class="far songItemPlay fa-play-circle"></i></span></span>
+                </div> 
+            </div>
+            <div>
+                <div class="songItem">
+                    <img src="cover1.webp" alt="1">
+                    <span class="songName">The Rockpond</span>
+                    <span class="songListPlay"></span><span class="timeStamp">03:58<i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+            <div>
+                <div class="songItem">
+                    <img src="cover1.webp" alt="1">
+                    <span class="songName">Fireflies</span>
+                    <span class="songListPlay"><span class="timeStamp">04:29<i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+            <div>
+                <div class="songItem">
+                    <img src="cover1.webp" alt="1">
+                    <span class="songName">The dream that dreamt</span>
+                    <span class="songListPlay"><span class="timeStamp">08:55<i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+            <div>
+                <div class="songItem">
+                    <img src="cover1.webp" alt="1">
+                    <span class="songName">Antenna</span>
+                    <span class="songListPlay"><span class="timeStamp">04:02<i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+       <div class="songBanner"></div>
+       
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-2x fa-step-backward" id="prevPlay"></i>
+            <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="nextPlay"></i>
+        </div>
+        <div class="songInfo"> 
+            <img src="soundGif.gif" width="42px" alt="" id="soundGIFBottom"><span id="masterSongName">How much does a thought weigh</span>
+        </div>
+
+      
+    </div>
+    <script src="https://kit.fontawesome.com/0fdb99b00d.js" crossorigin="anonymous"></script>
+   <script src = "script.js"></script>
+</body>
+</html>
